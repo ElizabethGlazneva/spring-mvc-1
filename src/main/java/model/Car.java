@@ -1,6 +1,7 @@
 package model;
 
 public class Car {
+
     private int series;
     private String maker;
     private String model;
@@ -10,6 +11,7 @@ public class Car {
         this.maker = maker;
         this.model = model;
     }
+    public Car(){}
 
     public int getSeries() {
         return series;
